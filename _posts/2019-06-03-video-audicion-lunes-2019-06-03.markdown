@@ -5,7 +5,7 @@ name: 2019-06-03-video-audicion-lunes-2019-06-03.markdown
 tags:
   - Peñarol
   - 2019
-  - Audición
+  - Audicion
 description: "Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del lunes 03 de Junio 2019"
 author: ID-Peñarolense
 gosne: "Grêmio[su _sacecito]:Conviven dentro de Êl"
@@ -18,11 +18,10 @@ categoria:
   - Audiciones partidarias
 duracion: "47:10 minutos"
 tipo: "Audición: Fútbol A Lo Peñarol"
-image1: https://i.imgur.com/t9jAOsM.jpg
 Video: true
 date: 2019-06-03 21:00:00 +01:00:00
 ---
-<!---
+<!--- image1: https://i.imgur.com/t9jAOsM.jpg
 Campeonato: <span>{{ page.Campeonato }}</span><br>
 Fecha: <span>{{ page.Fecha }}</span><br>
 Encuentro: <span>{{ page.Partido }}</span><br>-->
