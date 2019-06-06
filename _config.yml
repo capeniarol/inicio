@@ -22,10 +22,14 @@ minimal_mistakes_skin                 : "sunrise"
 environment                           : "production"
 locale                                : "es"
 title                                 : "ID-Peñarolense"
-email                                 : "capeniarol.cf@gmail.com"
+email                                 : "identidad.penarolense@gmail.com"
 description                           : "ID Peñarolense proporciona links para ver videos de partidos completos tanto de Peñarol como de la Selección Uruguaya De Fútbol así como también videos de la audición de Peñarol por radio 1010 AM Fútbol A Lo Peñarol"
+teaser                                : "assets/images/teaser500x200.jpg"
 twitter_username                      : "Club Atlético Peñarol"
 github_username                       : "capeniarol"
+baseurl                               : "/inicio"
+url                                   : "https://capeniarol.github.io"
+repository:                           : "capeniarol/inicio"
 search                                : "true"
 search_full_content                   : "true"
 search_provider                       : "google"
@@ -43,7 +47,7 @@ analytics                             :
   google                              :
     tracking_id                       : UA-115504550-2
     anonymize_ip                      : false
-                            
+
 # Build settings
 markdown: "kramdown"
 encoding: utf-8
