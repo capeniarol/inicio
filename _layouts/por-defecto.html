@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--
+Tillhör därför by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons BY-NC-ND 3.0 License
+
+Name       : gitin
+Description: A two-column, fixed-width blog design.
+Version    : 1.0
+Released   : 20190101
+
+ <html xmlns="http://www.w3.org/1999/xhtml">
+
+-->
+<head>
+{% include head.html %}
+</head>
+<body>
+
+<div id="wrapper">
+
+<!-- start header -->
+  <div id="header">
+	  <div id="menu">
+		  {% include menu.html %}
+	  </div>
+	  <div id="logo">
+	    {% include logo.html %}
+	  </div>
+  </div>
+<!-- end header -->
+
+<!-- start page -->
+	<div id="page">
+
+    <!-- start sidebar -->
+      <div id="sidebar1" class="sidebar">
+			     {% include sidebar1.html %}
+		  </div>
+    <!-- end sidebar -->
+
+<!-- para adaptar el player youtube al ancho de la página -->
+    <script src="{{ site.url }}/assets/js/jquery-1.7.1.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Target your .container, .wrapper, .post, etc.
+        $("#content").fitVids();
+      });
+    </script>
+<!-- para adaptar el player youtube al ancho de la página -->
+
+    <!-- start content -->
+		  <div id="content">
+
+        <!-- start container -->
+          <div class="container">
+
+            <!-- start header -->
+              <header>
+
+                <p class="byline">
+                  <time>
+                    <img src="{{ site.url }}/images/calendar.png" width="25px;" style="vertical-align: -5px;margin-right: 3px;">{{ page.date | date_to_string }}
+                  </time>
+                  {% if page.author %}
+                    • <img src="{{ site.url }}/images/Club.png" width="25px" style="vertical-align: -5px;margin-left: 6px;margin-right:3px;">
+                  {% endif %}
+                  {{ page.author }}
+                </p>
+
+                <h1 style="margin-bottom: -27px;">{{ page.title }}</h1>
+
+                <br>
+
+                <div id="categorizacion" width="420" style="float: unset;line-height: 183%;">
+                  {% unless page.categoria != 'informe' %}<span id="categoria">{{ page.categoria }}</span><span style="border-bottom:1px dashed;font-weight: bold;margin-left: 10px;"> {{ page.fuente }}</span><br>{% endunless %}
+                  {% unless page.categoria != 'audicion-partidaria' %}<span id="categoria">audición partidaria</span><span style="border-bottom:1px dashed;font-weight: bold;margin-left: 10px;"> "Fútbol A Lo Peñarol" Por radio 1010 AM</span>{% endunless %}
+                  {% unless page.categoria != 'entrevista' %}<span id="categoria">{{ page.categoria }}</span><span style="border-bottom:1px dashed;font-weight: bold;margin-left: 10px;"> {{ page.entrevistado }}</span><br>{% endunless %}
+                  {% unless page.categoria != 'seleccion' %}<span id="categoria">selección</span>{% endunless %}{% unless page.seleccion != 'informe' %}<span id="opcion"> informe</span> {% unless page.fuente != 'Radio Oriental' %}{% include oriental.html %}{% endunless %}{% endunless %}{% unless page.seleccion != 'entrevista' %}<span id="opcion">entrevista</span><span style="border-bottom:1px dashed;font-weight: bold;margin-left: 10px;"> {{ page.entrevistado }}</span>{% endunless %}
+                  {% unless page.categoria != 'conferencia-de-prensa' %}<span id="categoria">conferencia de prensa</span> {{ page.entrevistado }}{% endunless %}
+                  {% unless page.categoria != 'partido-completo' %}<span id="categoria">Partido Completo</span> <span id="opcion">{{ page.Campeonato }}</span><br>{% endunless %}{% unless page.categoria != 'partido-completo' %}<span style="border-bottom:1px dashed;font-weight: bold;"> {{ page.Partido }} - Fecha: {{ page.Fecha }}<br></span>{% endunless %}
+                </div>
+
+                <br>
+
+              <div id="subtitulo" style="margin-bottom: 35px;margin-top: -40px">
+                <div id="tiempo_de_lectura" width="420" style="float: left;line-height:337%;display: inline;font-weight: bold;font-family: Catamaran, sans-serif;">
+                  {% unless page.categoria != 'entrevista' %}<img src="{{ site.url }}/images/clock.png" width="25px" style="vertical-align:-5px;"> {{ page.duracion }}{% endunless %}
+                  {% unless page.categoria != 'informe' %}<img src="{{ site.url }}/images/clock.png" width="25px" style="vertical-align:-5px;"> {{ page.duracion }}{% endunless %}
+                  {% unless page.categoria != 'audicion-partidaria' %}<img src="{{ site.url }}/images/clock.png" width="25px" style="vertical-align: -5px;margin-right: 5px;">{{ page.duracion }}{% endunless %}
+                  {% unless page.categoria != 'seleccion' %}<img src="{{ site.url }}/images/clock.png" width="25px" style="vertical-align: -5px;margin-right: 5px;">{{ page.duracion }}{% endunless %}
+                  {% unless page.categoria != 'conferencia-de-prensa' %}<img src="{{ site.url }}/images/clock.png" width="25px" style="vertical-align: -5px;margin-right: 5px;">{{ page.duracion }}{% endunless %}
+                  {% unless page.categoria != 'partido-completo' %}<img src="{{ site.url}}/images/clock.png" width="25px" style="vertical-align: -5px;margin-right: 5px;"><span style="font-weight: bold;font-family: Catamaran, sans-serif;">{{ page.duracion }}</span>{% endunless %}
+                </div>
+              <div id="audiencia" width="320" style="float:right;display: inline;">
+
+                 <div id="facebook" style="display: inline;vertical-align: 14px;">
+                  <!-- Load Facebook SDK for JavaScript -->
+                  <div id="fb-root"></div>
+                  <script>
+                    (function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                  </script>
+
+                  <!-- Your like button code -->
+                  <div class="fb-like"
+                    data-href="{{ site.url }}/{{ page.url }}"
+                    data-layout="button_count"
+                    data-action="like"
+                    data-share="true"
+                    data-show-faces="true">
+                  </div>
+                </div>
+
+                <div id="google" style="display: inline;margin-left: 6px;margin-top:0px;">
+                  <script>
+                    window.___gcfg = {
+                      lang: 'es-ES',
+                      parsetags: 'onload'
+                    };
+                  </script>
+                  <script src="https://apis.google.com/js/platform.js" async defer></script>
+                  <div class="g-plusone" data-size="medium" href="{{ site.url }}/{{ page.url }}"></div>
+
+                </div>
+
+                <div id="twitter" style="display: inline;margin-left: 6px;margin-top:0px;">
+                  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="{{ site.url }}/{{ page.url }}" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+              </div>
+            </div>
+
+                <br>
+
+                <img src="{{ page.image1 }}" width="560px">
+
+                <br>
+              </header>
+            <!-- end header -->
+
+			        {{ content }}
+
+          </div>
+        <!-- end container -->
+
+		  </div>
+    <!-- end content -->
+
+		<div style="clear: both;">&nbsp;</div>
+
+  </div>
+<!-- end page -->
+
+</div>
+<!-- end wrapper -->
+
+<!-- start foot -->
+<center>
+  {% include foot.html %}
+  <2:de-costa-rica><div style="font-size:10px;position:libre;">This template  downloaded from <a href='http://all-free-download.com/free-website-templates/' style="color:yellow;">free website templates</a></div></2:de-costa-rica>
+  <p>
+    <a class="link" href="https://creativecommons.org/licenses/by-nc-nd/3.0/es/">
+      <img src="/images/CClogo.png" width="80px" style="margin-top:-7px;">
+    </a>
+  </p>
+</center>
+<!-- end foot -->
+
+</body>
+</html>
