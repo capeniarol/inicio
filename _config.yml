@@ -47,6 +47,8 @@ analytics                             :
   google                              :
     tracking_id                       : UA-115504550-2
     anonymize_ip                      : false
+breadcrumbs                           : true
+words_per_minute                      : 200
 
 # Build settings
 markdown: "kramdown"
