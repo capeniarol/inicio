@@ -33,11 +33,17 @@ google:
   search_engine_id                    : "015903443594646426127:-yxo6vevwsi"
   instant_search                      : "true"
 comments:
-  provider: "facebook"
-  facebook:
-    appid: 452430238529120
-    num_posts: 10
-    colorscheme: light
+  provider                            : "facebook"
+  facebook                            :
+    appid                             : 452430238529120
+    num_posts                         : 10
+    colorscheme                       : light
+analytics                             :
+  provider                            : "google-gtag"
+  google                              :
+    tracking_id                       : UA-115504550-2
+    anonymize_ip                      : false
+                            
 # Build settings
 markdown: "kramdown"
 encoding: utf-8
