@@ -38,6 +38,7 @@ Partido completo online por el Apertura 2019, Fecha Nr 12, entre Peñarol vs Nac
 <br>
 
 <center>
+<div id="media">
 <table>
 <tbody>
   <tr>
@@ -45,7 +46,7 @@ Partido completo online por el Apertura 2019, Fecha Nr 12, entre Peñarol vs Nac
 		<td style="padding: 0px;border-bottom: 0px;" height="13" background="/assets/images/55452124552.png"></td>
 		<td style="padding: 0px;border-bottom: 0px;" height="13" width="21" background="/assets/images/45454787.png"></td>
   </tr>
-  <div id="media">
+  
 	<tr>
 		<td style="padding: 0px;border-bottom: 0px;" width="21" background="/assets/images/21210212120.png"></td>
 		<td>
@@ -55,7 +56,7 @@ Partido completo online por el Apertura 2019, Fecha Nr 12, entre Peñarol vs Nac
 		</td>
     <td style="padding: 0px;border-bottom: 0px;" width="21" background="/assets/images/203233451.png"></td>
        </tr>
-  </div>
+  
   
   <tr>
     <td style="padding: 0px;border-bottom: 0px;" height="17" width="21" background="/assets/images/23121542.png"></td>
@@ -64,6 +65,7 @@ Partido completo online por el Apertura 2019, Fecha Nr 12, entre Peñarol vs Nac
   </tr>
 </tbody>
 </table>
+</div>
 </center>
 
 <br>
