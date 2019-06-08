@@ -49,8 +49,14 @@ EL video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio
   <tr>
 		<td width="21" background="/assets/images/21210212120.png"></td>
 		<td>
-		<div id="media">
-				<iframe width="560" height="315" src="//ok.ru/videoembed/1279455070899" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+			<div id="media">
+				
+				<html>
+				
+					<iframe width="560" height="315" src="//ok.ru/videoembed/1279455070899" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+					
+				</html>
+				
 			</div>
 		</td>
     <td width="21" background="/assets/images/203233451.png"></td>
