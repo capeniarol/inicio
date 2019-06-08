@@ -27,7 +27,7 @@ description                           : "ID Peñarolense proporciona links para 
 teaser                                : "assets/images/teaser500x200.jpg"
 twitter_username                      : "Club Atlético Peñarol"
 github_username                       : "capeniarol"
-baseurl                               : "/"
+baseurl                               : "/home"
 url                                   : "https://capeniarol.github.io/inicio"
 repository                            : "capeniarol/inicio"
 search                                : "true"
