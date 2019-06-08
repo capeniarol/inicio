@@ -3,8 +3,7 @@ layout: search
 title: "Busqueda"
 permalink: /search/
 author: ID-Peñarolense
-
-
+author_profile: true
 ---
 <style>
 
