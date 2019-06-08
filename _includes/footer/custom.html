@@ -1,4 +1,32 @@
 <!-- start custom footer snippets -->
-<a href="{{ site.url }}/{{ site.baseurl }}/privacy-policy"><span style="font-size: 16px">Privacy Policy</span></a>
+<style>
+.custom-footer {
+  font-size: 16px;
+  text-transform: none;
+}
+  
+.privacy-policy {
+  width: 50%;
+  float: right; 
+  display: inline-block;
+}
+  
+.contacto {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+  
+</style>
+<div class="custom-footer">
+  
+        <div class="contacto">
+          <span style="border-bottom: blue;"><strong>CONTACTO:</strong> identidad.penarolense@gmail.com</span>
+        </div>
+        <div class="privacy-policy">
+          <a href="{{ site.url }}/{{ site.baseurl }}/privacy-policy"><span><strong> Privacy Policy</strong></span></a>
+        </div>
+      
+</div>
 
 <!-- end custom footer snippets -->
