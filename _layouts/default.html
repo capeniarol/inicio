@@ -19,16 +19,13 @@
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
 
-    <!-- para adaptar el player youtube al ancho de la página -->
-        <script src="{{ site.url }}/assets/js/jquery-1.7.1.min.js"></script>
-        <script src="{{ site.url }}/assets/js/jquery.fitvids.js"></script>
-        <script>
-          $(document).ready(function(){
-            // Target your .container, .wrapper, .post, etc.
-            $("#content").fitVids();
-          });
-        </script>
-    <!-- para adaptar el player youtube al ancho de la página -->
+    <style>
+          td {
+        padding: 0;
+        border-bottom: 0;
+        margin: 0;
+        }
+    </style>
 
     <div class="initial-content">
       {{ content }}
