@@ -3,6 +3,7 @@ layout: single
 title: "Privacy Policy"
 permalink: /privacy-policy/
 author: ID-Penarolense
+toc: true
 ---
 
 ## Web browser cookies
