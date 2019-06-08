@@ -1,28 +1,33 @@
 <!-- start custom footer snippets -->
 <style>
-.contacto {
+
+.custom-footer {
   font-size: 16px;
   text-transform: none;
 }
   
 .privacy-policy {
-  font-size: 16px;
-  text-transform: none;
+  float: right;  
 }
+  
+.contacto {
+  float: left;
+}
+  
 </style>
   
-<table>
+<table class="custom-footer">
   <tbody>
     <tr>
-      <td class="contacto">
-        <span>
-          <strong>
-          CONTACTO:
-          </strong>
-            identidad.penarolense@gmail.com
-        </span>
+      <td>
+        <div class="contacto">
+          <span><strong>CONTACTO:</strong> identidad.penarolense@gmail.com</span>
+        </div>
       </td>
-      <td class="privacy-policy"><a href="{{ site.url }}/{{ site.baseurl }}/privacy-policy" style="float: right;"><span><strong> Privacy Policy</strong></span></a>
+      <td>
+        <div class="privacy-policy">
+          <a href="{{ site.url }}/{{ site.baseurl }}/privacy-policy"><span><strong> Privacy Policy</strong></span></a>
+        </div>
       </td>
     <tr>
   </tbody>
