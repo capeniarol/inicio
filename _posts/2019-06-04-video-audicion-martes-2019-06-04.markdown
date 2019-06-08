@@ -39,6 +39,8 @@ EL video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio
 
 <br>
 
+<html>
+	
 <center>
 <table>
 <tbody>
@@ -68,3 +70,5 @@ EL video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio
 </center>
 
 <!--<span style="color:yellow;">grabado con</span> <a href="http://ffmpeg.org"><img src="{{ site.url }}/images/ffmpeg.png" width="50px" style="border:1px solid green;vertical-align: sub;margin-left:7px;"></a>-->
+
+</html>
