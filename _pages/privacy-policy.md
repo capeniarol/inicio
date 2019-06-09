@@ -1,7 +1,6 @@
 ---
 title: "Privacy Policy"
 permalink: /privacy-policy/
-author: ID-Penarolense
 ---
 
 ## Web browser cookies
