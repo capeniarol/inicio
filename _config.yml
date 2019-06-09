@@ -13,8 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-theme                                 : "minimal-mistakes-jekyll"
-remote_theme                          : "mmistakes/minimal-mistakes"
+
 minimal_mistakes_skin                 : "sunrise"
 
 #Site settings
@@ -52,6 +51,7 @@ words_per_minute                      : 200
 
 # Build settings
 markdown: "kramdown"
+remote_theme                          : "mmistakes/minimal-mistakes"
 encoding: utf-8
 
 # Outputting
