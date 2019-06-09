@@ -42,12 +42,12 @@ EL video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio
 <table>
 <tbody>
   <tr>
-		<td height="13" width="21" background="/assets/images/12421152032.png"></td>
-		<td height="13" background="/assets/images/55452124552.png"></td>
-		<td height="13" width="21" background="/assets/images/45454787.png"></td>
+		<td height="13" width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/12421152032.png"></td>
+		<td height="13" background="{{ site.url }}/{{ site.baseurl }}/assets/images/55452124552.png"></td>
+		<td height="13" width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/45454787.png"></td>
   </tr>
   <tr>
-		<td width="21" background="/assets/images/21210212120.png"></td>
+		<td width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/21210212120.png"></td>
 		<td>
 			<div id="media">
 				
@@ -59,13 +59,13 @@ EL video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio
 				
 			</div>
 		</td>
-    <td width="21" background="/assets/images/203233451.png"></td>
+    <td width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/203233451.png"></td>
   </tr>
 
   <tr>
-    <td height="17" width="21" background="/assets/images/23121542.png"></td>
-    <td height="17" background="/assets/images/12345456.png"></td>
-    <td height="25" width="21" background="/assets/images/2656564.png"></td>
+    <td height="17" width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/23121542.png"></td>
+    <td height="17" background="{{ site.url }}/{{ site.baseurl }}/assets/images/12345456.png"></td>
+    <td height="25" width="21" background="{{ site.url }}/{{ site.baseurl }}/assets/images/2656564.png"></td>
   </tr>
 </tbody>
 </table>
