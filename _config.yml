@@ -21,7 +21,7 @@ description: "ID Peñarolense proporciona links para ver videos de los partidos 
 url: "https://abuseombudsman.github.io"
 baseurl: "ID-Penarolense"
 repository: "abuseombudsman/ID-Penarolense"
-logo:
+logo: "/assets/images/pelotalogo.png"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
