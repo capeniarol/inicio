@@ -81,10 +81,10 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/NoOficialCAP"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github-square"
       url: "https://github.com/abuseombudsman/ID-Penarolense"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
+      icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/NoOficialCAP"
 
 footer:
@@ -93,10 +93,10 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/NoOficialCAP"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github-square"
       url: "https://github.com/abuseombudsman/ID-Penarolense"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
+      icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/NoOficialCAP"
 
 defaults:
