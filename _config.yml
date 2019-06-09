@@ -17,14 +17,20 @@
 locale: es
 title: ID Peñarolense
 email: identidad.penarolense@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "ID Peñarolense proporciona links para ver videos de los partidos completos tanto de Peñarol como de la Selección Uruguaya De Fútbol así como también videos de la audición Peñarolense de radio 1010 AM Fútbol A Lo Peñarol"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+comments:
+  provider                            : "facebook"
+  facebook                            :
+    appid                             : 629639190882879
+    num_posts                         : 100
+    colorscheme                       : light
+atom_feed:
+  path                                :# blank (default) uses feed.xml
+  
 
 # Build settings
 markdown: kramdown
@@ -62,32 +68,32 @@ plugins:
 author:
   name   : "ID Peñarolense"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Publicaciones de links para ver partidos completos en línea tanto de Peñarol como de la Selección Uruguaya de Fútbol."
+  bio    : "ID Peñarolense proporciona links para ver videos de los partidos completos tanto de Peñarol como de la Selección Uruguaya De Fútbol así como también videos de la audición Peñarolense de radio 1010 AM Fútbol A Lo Peñarol"
   links:
     - label: "ID Peñarolense"
       icon: "fas fa-fw fa-link"
       url: "https://abuseombudsman.github.io/ID-Penarolense"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/NoOficialCAP"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/abuseombudsman/ID-Penarolense"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/NoOficialCAP"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/NoOficialCAP"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/abuseombudsman/ID-Penarolense"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/NoOficialCAP"
 
 defaults:
   # _posts
