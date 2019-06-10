@@ -24,10 +24,12 @@ image3:
 date: 2019-05-12 20:00:00 +02:00:00
 Video: true
 ---
+   
+<h2>   PARTIDO COMPLETO EN LÍNEA   </h2>
 
-{% for site.posts.tipo = 'PARTIDO COMPLETO EN LÍNEA' %}
+{% for post in site.post %}
 	<span style="border-bottom: 1px solid #353029;">{{ post.Campeonato }} {{ post.Fecha }}</span><br>
-	<span>{{ post.Partido }}</span>
+	<span>{{ post.Partido }}</span><br><br>
 {% endfor %}
 <span>
 	{{ site.url }}/assets/images/2656564.png
