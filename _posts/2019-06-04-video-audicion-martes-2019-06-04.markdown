@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Peñarol: Audición Partidaria, Fútbol A Lo Peñarol, martes 04 de Junio, 2019-06-04"
 name: 2019-06-10-video-audicion-martes-2019-06-04.markdown
 tags:
@@ -7,7 +6,6 @@ tags:
   - 2019
   - Audición
 description: "Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del martes 04 de Junio 2019"
-gosne: "Grêmio[su _sacecito]:Conviven dentro de Êl"
 Campeonato: "Intermedio 2019"
 Fecha: "Fecha Nr 1"
 Partido: "Próximo Partido: Torneo Intermedio"
