@@ -25,6 +25,10 @@ date: 2019-05-12 20:00:00 +02:00:00
 Video: true
 ---
 
+{% for site.posts.tipo = 'PARTIDO COMPLETO EN LÍNEA' %}
+	<span style="border-bottom: 1px solid #353029;">{{ post.Campeonato }} {{ post.Fecha }}</span><br>
+	<span>{{ post.Partido }}</span>
+{% endfor %}
 <span>
 	{{ site.url }}/assets/images/2656564.png
 </span>
