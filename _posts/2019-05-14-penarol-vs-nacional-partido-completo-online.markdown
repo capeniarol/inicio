@@ -8,7 +8,6 @@ tags:
   - Apertura
   - video
 description: "Partido completo online por el Apertura 2019, Fecha Nr 12, Peñarol vs Nacional en el CDS"
-author: ID-Peñarolense
 gosne: Grêmio[1_Matriarcado|1_Patriarcado]:Conviven dentro de Êl-CA Peñarol
 Campeonato: "Apertura 2019"
 Fecha: "Fecha Nr 12"
@@ -27,7 +26,7 @@ Video: true
    
 <h2>   PARTIDO COMPLETO EN LÍNEA   </h2>
 
-{% for post in site.post %}
+{% for post in site.posts %}
 	<span style="border-bottom: 1px solid #353029;">{{ post.Campeonato }} {{ post.Fecha }}</span><br>
 	<span>{{ post.Partido }}</span><br><br>
 {% endfor %}
