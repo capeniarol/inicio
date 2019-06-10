@@ -10,7 +10,6 @@ tags:
   - sub-20
   - Ecuador
 description: "Partido completo en línea por el Mundial Sub 20 Polonia 2019, 8avos de final, Uruguay U20 vs Ecuador U20"
-author: ID-Peñarolense
 gosne: Grêmio[1_Matriarcado|1_Patriarcado]:Conviven dentro de Êl(CA Peñarol)
 Campeonato: "Mundial de FIFA Sub 20 Polonia 2019"
 Fecha: "8/8 de final"
@@ -25,14 +24,6 @@ image3:
 date: 2019-06-03 17:30:00 +02:00:00
 Video: true
 ---
-
-<style>
-  td {
-    padding: 0;
-    border-bottom: 0;
-    margin: 0;
-  }
-</style>
 
 Partido completo online por el Mundial Sub 20 Polonia 2019, 8/8 de final, entre Uruguay U20 y Ecuador U20 en Polonia.
 
