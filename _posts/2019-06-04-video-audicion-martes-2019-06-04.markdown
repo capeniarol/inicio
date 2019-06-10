@@ -6,7 +6,7 @@ tags:
   - Peñarol
   - 2019
   - Audición
-description: "Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del martes 04 de Junio 2019
+description: "Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del martes 04 de Junio 2019"
 gosne: "Grêmio[su _sacecito]:Conviven dentro de Êl"
 Campeonato: "Intermedio 2019"
 Fecha: "Fecha Nr 1"
@@ -26,15 +26,6 @@ Campeonato: <span>{{ page.Campeonato }}</span><br>
 Fecha: <span>{{ page.Fecha }}</span><br>
 Encuentro: <span>{{ page.Partido }}</span><br>-->
 
-<html>
-	
-<style>
-  td {
-    padding: 0;
-    border-bottom: 0;
-    margin: 0;
-  }
-</style>
 <p>
 El video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del lunes 03 de Junio, 2019.
 </p>
@@ -67,4 +58,4 @@ El video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio
 
 <!--<span style="color:yellow;">grabado con</span> <a href="http://ffmpeg.org"><img src="{{ site.url }}/images/ffmpeg.png" width="50px" style="border:1px solid green;vertical-align: sub;margin-left:7px;"></a>-->
 
-</html>
+
