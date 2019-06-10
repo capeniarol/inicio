@@ -1,8 +1,12 @@
 ---
 title: "Peñarol: Audición Partidaria, Fútbol A Lo Peñarol, lunes 03 de Junio, 2019-06-03"
 name: 2019-06-03-video-audicion-lunes-2019-06-03.md
-video: true
-date: 2019-06-03 21:00:00 +01:00:00
+category:
+  - Audiciones partidarias de Peñarol
+tags:
+  - Peñarol
+  - Audición
+  - temporada 2019
 ---
 <!--- image1: https://i.imgur.com/t9jAOsM.jpg
 Campeonato: <span>{{ page.Campeonato }}</span><br>
