@@ -9,7 +9,7 @@
       <section id="disqus_thread"></section>
     {% when "facebook" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
-      <div class="fb-comments" data-href="{{ page.url | absolute_url }}" data-width="100%" data-numposts="100" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></div>      
+      <section class="fb-comments" data-href="{{ page.url | absolute_url }}" data-width="100%" data-numposts="100" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></section>      
     {% when "staticman_v2" %}
       <section id="static-comments">
         {% if site.repository and site.staticman.branch %}
