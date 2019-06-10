@@ -23,16 +23,6 @@ image3:
 date: 2019-05-12 20:00:00 +02:00:00
 Video: true
 ---
-   
-<h2>   PARTIDO COMPLETO EN LÍNEA   </h2>
-
-{% for post in site.posts %}
-	<span style="border-bottom: 1px solid #353029;">{{ post.Campeonato }} {{ post.Fecha }}</span><br>
-	<span>{{ post.Partido }}</span><br><br>
-{% endfor %}
-<span>
-	{{ site.url }}/assets/images/2656564.png
-</span>
 
 Partido completo online por el Apertura 2019, Fecha Nr 12, entre Peñarol vs Nacional en el CDS.
 
