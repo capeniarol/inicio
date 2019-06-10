@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Peñarol: Audición Partidaria, Fútbol A Lo Peñarol, martes 04 de Junio, 2019-06-04"
-name: 2019-06-04-video-audicion-martes-2019-06-04.markdown
+name: 2019-06-10-video-audicion-martes-2019-06-04.markdown
 tags:
   - Peñarol
   - 2019
@@ -19,7 +19,6 @@ duracion: "46:39 minutos"
 tipo: "Audición: Fútbol A Lo Peñarol"
 image1: https://i.imgur.com/j9KlvJC.jpg
 Video: true
-date: 2019-06-04 21:00:00 +01:00:00
 ---
 <!---
 Campeonato: <span>{{ page.Campeonato }}</span><br>
