@@ -1,5 +1,6 @@
 ---
 title: "Peñarol: Audición Partidaria, Fútbol A Lo Peñarol, martes 04 de Junio, 2019-06-04"
+excerpt: "El video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del martes 04 de Junio, 2019."
 name: 2019-06-10-video-audicion-martes-2019-06-04.md
 category:
   - Audiciones partidarias de Peñarol
@@ -14,7 +15,7 @@ Fecha: <span>{{ page.Fecha }}</span><br>
 Encuentro: <span>{{ page.Partido }}</span><br>-->
 
 <p>
-El video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del lunes 03 de Junio, 2019.
+El video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del martes 04 de Junio, 2019.
 </p>
 <br>
 <div id="media">
