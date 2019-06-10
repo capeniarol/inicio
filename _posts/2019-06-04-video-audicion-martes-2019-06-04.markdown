@@ -6,8 +6,7 @@ tags:
   - Peñarol
   - 2019
   - Audición
-description: "Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del martes 04 de Junio 2019"
-author: ID-Peñarolense
+description: "Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del martes 04 de Junio 2019
 gosne: "Grêmio[su _sacecito]:Conviven dentro de Êl"
 Campeonato: "Intermedio 2019"
 Fecha: "Fecha Nr 1"
