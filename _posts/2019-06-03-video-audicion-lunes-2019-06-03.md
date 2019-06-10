@@ -1,21 +1,7 @@
 ---
 title: "Peñarol: Audición Partidaria, Fútbol A Lo Peñarol, lunes 03 de Junio, 2019-06-03"
 name: 2019-06-03-video-audicion-lunes-2019-06-03.md
-tags:
-  - Peñarol
-  - 2019
-  - Audicion
-description: "Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del lunes 03 de Junio 2019"
-Campeonato: "Apertura 2019"
-Fecha: "Fecha Nr 15"
-Partido: "Próximo Partido: Torneo Intermedio"
-category:
-  - Audiciones partidarias de Peñarol
-categoria:
-  - Audiciones partidarias de Peñarol
-duracion: "47:10 minutos"
-tipo_de_ingreso: "Audición: Fútbol A Lo Peñarol"
-Video: true
+video: true
 date: 2019-06-03 21:00:00 +01:00:00
 ---
 <!--- image1: https://i.imgur.com/t9jAOsM.jpg
