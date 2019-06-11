@@ -16,8 +16,10 @@ Encuentro: <span>{{ page.Partido }}</span><br>-->
 
 <p>
 El video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del jueves 06 de Junio, 2019.
-
 </p>
+
+{:.notice--primary}
+
 <br>
 <div id="media">
 	<center>
