@@ -9,14 +9,11 @@ tags:
   - temporada 2019
   - Audición
 ---
-<!---
-Campeonato: <span>{{ page.Campeonato }}</span><br>
-Fecha: <span>{{ page.Fecha }}</span><br>
-Encuentro: <span>{{ page.Partido }}</span><br>-->
 
-<p>
-El video de la Audición Partidaria de Peñarol: Fútbol A Lo Peñarol por radio 1010 AM, edición del jueves 06 de Junio, 2019.{:.notice--primary}
-</p>
+El video de la Audición Partidaria de Peñarol: **Fútbol A Lo Peñarol** por radio 1010 AM, edición del jueves 06 de Junio, 2019.
+
+{:.notice--primary}
+
 
 <br>
 <div id="media">
