@@ -77,6 +77,17 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Social
+
+social:
+  type: "Organization"
+  name: "No Oficial CAP"
+  links:
+    - https://twitter.com/NoOficialCAP
+    - https://facebook.com/NoOficialCAP
+    - https://github.com/abuseombudsman/ID-Penarolense
+    - https://youtube.com/channel/UCgRdFw-AjJqU6Km9RIQWYNw
+
 author:
   name   : "ID Peñarolense"
   avatar : "/assets/images/bio-photo.jpg"
@@ -94,6 +105,9 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/NoOficialCAP"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "https://youtube.com/channel/UCgRdFw-AjJqU6Km9RIQWYNw"
 
 footer:
   links:
@@ -106,6 +120,10 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/NoOficialCAP"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "https://youtube.com/channel/UCgRdFw-AjJqU6Km9RIQWYNw"
+
 
 defaults:
   # _posts
