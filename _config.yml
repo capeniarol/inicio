@@ -35,6 +35,8 @@ comments:
 atom_feed:
   path                                :# blank (default) uses feed.xml
 breadcrumbs                           : true
+google:
+  search_engine_id                    : "015903443594646426127:hsrrwa1_2wm"
 
 google_site_verification              : "google10b2d0e621243919.html"
 
@@ -85,7 +87,7 @@ plugins:
 
 social:
   type: "Organization"
-  name: "No Oficial CAP"
+  name: "CAP No Oficial"
   links:
     - https://twitter.com/NoOficialCAP
     - https://facebook.com/NoOficialCAP
