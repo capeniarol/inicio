@@ -35,6 +35,13 @@ comments:
 atom_feed:
   path                                :# blank (default) uses feed.xml
 breadcrumbs                           : true
+
+google_site_verification              : "google10b2d0e621243919.html"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-141930767-2"
+    anonymize_ip: false # default
   
 
 # Build settings
