@@ -9,6 +9,6 @@ Creemos que ésta posibilidad debe existir en todo momento para el hincha aurine
 
 Esto que Tenfield arroja hoy es un delito y un mamarracho, va en contra de la evolución y la persecución de tal injusticia comienza acá en nuestro sitio. Es de carácter informativo y toda la comunidad se ve beneficiada si se pudieran ver los partidos online.
 
-Nuestro canal de Youtube: Club Atlético Peñarol fue cerrado por diferentes denuncias de la empresa Tenfield por considerarse creeador de un espectaculo de fútbol sin ser futbolistas. La concha de su madre, sale un piñazo!!!
+Nuestro canal de Youtube: Club Atlético Peñarol fue cerrado por diferentes denuncias de la empresa Tenfield por considerarse creeador de un espectaculo de fútbol sin ser futbolistas y aparte ese servicio ni siquiera lo tienen a disposición de la audiencia, Tenfield no te vende partidos viejos, no tiene ofertas en este rubro. Es oscurantismo desinformación y son hdp con una falla en la conciencia y la concha de su madre, sale un piñazo!!!
 
 ID Peñarolense
