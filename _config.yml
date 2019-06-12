@@ -19,7 +19,7 @@ title: ID Peñarolense
 email: identidad.penarolense@gmail.com
 description: "ID Peñarolense proporciona links para ver videos de los partidos completos tanto de Peñarol como de la Selección Uruguaya De Fútbol así como también videos de la audición Peñarolense de radio 1010 AM Fútbol A Lo Peñarol"
 url: "https://abuseombudsman.github.io"
-baseurl: "ID-Penarolense"
+baseurl: "/ID-Penarolense"
 repository: "abuseombudsman/ID-Penarolense"
 logo: "/assets/images/pelotalogo.png"
 twitter_username: username
