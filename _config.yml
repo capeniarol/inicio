@@ -29,22 +29,25 @@ search: true
 comments:
   provider                            : "facebook"
   facebook                            :
-    appid                             : 629639190882879
-    num_posts                         : 100
-    colorscheme                       : light
+    appid                             : "629639190882879"
+    num_posts                         : "100"
+    colorscheme                       : "light"
 atom_feed:
   path                                :# blank (default) uses feed.xml
 breadcrumbs                           : true
 
 google_site_verification              : "google10b2d0e621243919.html"
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-141930767-2"
-    anonymize_ip: false # default
-  
 
+twitter:
+  - username                          : "NoOficialCAP"
+facebook:
+  - app_id:                           : "629639190882879"
+  - publisher:                        : "CAPenarolCf"
+facebook:
+  - username                          : "NoOficialCAP"                      
+  
 # Build settings
+
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
@@ -69,6 +72,7 @@ include:
 #   - vendor/ruby/
 
 # Plugins (previously gems:)
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -87,6 +91,13 @@ social:
     - https://facebook.com/NoOficialCAP
     - https://github.com/abuseombudsman/ID-Penarolense
     - https://youtube.com/channel/UCgRdFw-AjJqU6Km9RIQWYNw
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-141930767-2"
+    anonymize_ip: false # default
+    
+# Site author
 
 author:
   name   : "ID Peñarolense"
