@@ -1,6 +1,6 @@
 ---
 title: "Los Ingresos en el Sitio Año por Año"
-permalink: /Ingresos/
+permalink: /ingresos/
 layout: posts
 author_profile: true
 ---
