@@ -26,6 +26,10 @@ print_hi('Tom')
 Esto no se si funciona.
 {: .notice--danger}
 
+> El Presidente de Peñarol viajó expresamente hacia Portugal para tratar personalmente con el presidente de Benfica el caso Lema
+
+> <cite>Bujiano</cite> en **Fútbol A Lo Peñarol**
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
